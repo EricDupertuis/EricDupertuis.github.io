@@ -74,13 +74,9 @@ p {
 }
 
 #header {
-    position: fixed;
-    left: 0;
-    top: 0;
     background-image: url(../assets/images/grid-pattern.png);
     background-color: #226bb3;
-    height: 100%;
-    width: 350px;
+    width: 100%;
     color: #fff;
 }
 
