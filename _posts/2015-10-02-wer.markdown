@@ -11,10 +11,143 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
-Jekyll also offers powerful support for code snippets:
+Jekyll also offers powerful support for code snippets :
 
-{% highlight php %}
-var $that = $this->getName();
+{% highlight PHP %}
+<?php	// UTF-8 marker äöüÄÖÜß€
+
+require_once 'blocks/Status.php';
+require_once 'Page.php';
+
+class Baecker extends Page {
+    
+    private $block_Status; 
+    private $allePizzen;
+    
+    protected function __construct() {
+        parent::__construct();
+        
+        $this->block_Status = new Status($this->_database);
+        $allePizzen = array();
+    }
+    
+    protected function __destruct() {
+        parent::__destruct();
+    }
+
+    protected function getViewData() {
+              
+        $sql = "SELECT angebot.PizzaName, angebot.ID, bestelltepizza.PizzaID, bestelltepizza.Status, bestelltepizza.fBestellungID
+                FROM bestelltepizza
+                INNER JOIN angebot on angebot.ID = bestelltepizza.fAngebotID
+                WHERE bestelltepizza.status = 'bestellt' OR bestelltepizza.status = 'im Ofen' OR bestelltepizza.status = 'fertig'";
+        
+        $stmt = $this->_database->prepare($sql);
+        
+        if ($stmt->execute()) {
+            
+            $stmt->bind_result($PizzaName, $PizzaSorte, $PizzaID, $PizzaStatus, $BestellungID);
+                   
+            while ($stmt->fetch()) {
+              if (!isset($this->allePizzen[$BestellungID])) {
+                $this->_orders[$BestellungID] = array();
+              }
+              $this->allePizzen[$BestellungID][$PizzaID] = array(
+                'id'     => $PizzaSorte,
+                'PizzaName'   => $PizzaName,
+                'Status' => $this->ChangeStatus($PizzaStatus)
+              );
+            }
+        }
+    }
+    
+    protected function ChangeStatus($status){
+            
+        // Status anhand des Strings zu Array ändern
+        // z.B.: fertig => array(1,0,0)    
+
+        $bestellt = "bestellt";
+        $imOfen = "im Ofen";
+        $fertig = "fertig";
+
+        $bestelltArray = array(1,0,0);
+        $imOfenArray = array(0,1,0);
+        $fertigArray = array(0,0,1);
+            
+        if(strcmp($status, $bestellt) == 0){
+            $status = $bestelltArray; 
+
+        }elseif(strcmp($status, $imOfen)  == 0){
+            $status = $imOfenArray;
+
+        }elseif(strcmp($status, $fertig)  == 0){
+            $status = $fertigArray;       
+        }
+    
+        return $status;
+    }
+    
+    protected function generateView() {
+        
+        $this->getViewData();
+        $this->generatePageHeader('Bäcker');
+        
+        if(empty($this->allePizzen)){
+            echo '<br> <h4>Keine aktiven Bestellungen vorhanden!</h4>' . PHP_EOL;
+        }else{
+            
+echo <<<EOT
+        
+        <form action="Baecker.php" method="POST">
+EOT;
+        $Kopfzeile = array('bestellt', 'im Ofen', 'fertig');
+        foreach ($this->allePizzen as $Pizza) {
+            $this->block_Status->generateView(true, $Kopfzeile, $Pizza);
+        }
+        
+echo <<<EOT
+        
+        <script type='text/javascript'>
+        $(document).ready(function() { 
+                   $('input').change(function(){
+                        $('form').submit();
+                   });
+                  });
+            </script>
+        </form>
+EOT;
+        }
+        
+        $this->generatePageFooter();
+    }
+    
+    protected function processReceivedData() {
+        parent::processReceivedData();
+        
+        // Hier Update-Statement wenn auf ein RadioButton geklickt wird        
+        if (isset($_POST)) {
+                    
+          $stmt = $this->_database->prepare('UPDATE bestelltepizza SET Status = ? WHERE PizzaID = ?');
+            
+            foreach ($_POST as $id => $status) {
+                $stmt->bind_param('si', $status, $id);  // si => StringInteger
+                $stmt->execute();
+            }
+          }
+    }
+
+    public static function main() {
+        try {
+            $page = new Baecker();
+            $page->processReceivedData();
+            $page->generateView();
+        }
+        catch (Exception $e) {
+            header("Content-type: text/plain; charset=UTF-8");
+            echo $e->getMessage();
+        }
+    }
+}
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
