@@ -1,17 +1,35 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-image: url(../assets/images/grid-pattern.png);
-    background-color: #226bb3;
+    font-family: 'Inconsolata', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;;
+}
+
+p {
+    font-size: 20px;
 }
 
 header h1 {
+    font-size: 4.5em;
     text-align: center;
-    margin: 20px 0;
+    margin: 1em 0 1em 0;
 }
 
-.post-container {
-    background-color: #eaeaea;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 15px;
+.navbar-nav a:before {
+    content: "/";
+}
+/* bootstrap rewrite */
+
+.navbar-default {
+    background-color: #ffffff;
+    border: none;
+    font-size: 1.5em;
+}
+
+.navbar-nav {
+    margin: auto;
+    float: none;
+    clear: both;
+    width: 395px;
 }
