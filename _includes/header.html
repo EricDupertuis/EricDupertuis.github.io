@@ -1,15 +1,25 @@
-<header>
-    <h1>Eric Dupertuis</h1>
-</header>
 
-<div class="container" id="nav">
-    <div class="row">
-        {% for page in site.pages %}
-            {% if page.title %}
-                <div class="col-lg-4">
-                    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                </div>
-            {% endif %}
-        {% endfor %}
+<header>
+    <h1>{{ site.title }}</h1>
+</header>
+<nav class="navbar navbar-default navbar">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
     </div>
-</div>
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            {% for page in site.pages %}
+                {% if page.title %}
+                    <li><a class="menu-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</nav>
