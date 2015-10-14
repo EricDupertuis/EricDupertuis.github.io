@@ -1,7 +1,15 @@
-<header id="header">
-  {% for page in site.pages %}
-    {% if page.title %}
-      <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-    {% endif %}
-  {% endfor %}
+<header>
+    <h1>Eric Dupertuis</h1>
 </header>
+
+<div class="container" id="nav">
+    <div class="row">
+        {% for page in site.pages %}
+            {% if page.title %}
+                <div class="col-lg-4">
+                    <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
