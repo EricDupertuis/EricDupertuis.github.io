@@ -54,32 +54,13 @@ html, html a {
 
 body {
     font-family: 'Open Sans', sans-serif;
-}
-
-.wrapper {
-    max-width: 980px;
-    margin: auto;
-}
-
-.post-title {
-    font-weight: 100;
-    font-size: 3em;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-p {
-    font-weight: 100;
-    font-size: 1.2em;
-}
-
-#header {
     background-image: url(../assets/images/grid-pattern.png);
     background-color: #226bb3;
-    width: 100%;
-    color: #fff;
 }
 
-#header a {
-    color: #ffffff;
+.post-container {
+    background-color: #eaeaea;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
 }
