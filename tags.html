@@ -7,19 +7,30 @@ group: navigation
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag_words = site_tags | split:',' | sort %}
-
+{% assign counter = 0 %}
 
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
 {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-    <a href="#{{ this_word | replace:' ','-' }}-ref" data-toggle="tab">
+    <a href="#{{ this_word | replace:' ','-' }}-ref" data-toggle="modal" data-target="#tagsModal-{{ counter }}">
         {{ this_word }}<span class="badge pull-right">{{ site.tags[this_word].size }}</span>
     </a>
-{% endunless %}{% endfor %}
+    <div class="modal fade" id="tagsModal-{{ counter }}" tabindex="-1" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Modal title</h4>
+          </div>
+          <div class="modal-body">
 
-{% for item in (0..site.tags.size) %}{% unless forloop.last %}
-{% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-<h2 style="margin-top: 0px">Posts tagged  with {{ this_word }}</h2>
-    {% for post in site.tags[this_word] %}{% if post.title != null %}
-    <li style="line-height: 35px;"><a href="{{ site.BASE_PATH }}{{post.url}}">{{post.title}}</a> <span class="text-muted">- {{ post.date | date: "%B %d, %Y" }}</span></li>
-    {% endif %}{% endfor %}
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+    {% assign counter = counter|plus: 1 %}
 {% endunless %}{% endfor %}
