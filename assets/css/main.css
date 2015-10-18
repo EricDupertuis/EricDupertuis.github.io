@@ -24,8 +24,9 @@ code {
 }
 
 header {
-    background: url("/assets/images/header.jpg");
-    background-position: top;
+    background: url("/assets/images/header2.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 header h1 {

@@ -12,4 +12,6 @@ My main interests are programming (PHP, Python, Javascript among others...), des
  
 I've always been living in Switzerland, I love it here, freezing in the winter, melting in the summer (I hate summer) and extremely expensive coffee.
 
+This blog is sort of my notebook. I'll keep notes about code, keep track of projects and write random ramblings in it.
+
 You can find me on [Twitter](https://twitter.com/dupertuiseric), [Github](https://github.com/EricDupertuis) and [Instagram](https://instagram.com/ericdupertuis/)
