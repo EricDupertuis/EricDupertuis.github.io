@@ -25,22 +25,42 @@ header a:hover {
     text-decoration: none;
 }
 
-.navbar-nav a:before {
+#nav a:before {
     content: "/";
 }
-/* bootstrap rewrite */
 
-.navbar-default {
+#nav {
     background-color: #ffffff;
     border: none;
     font-size: 1.5em;
-}
-
-.navbar-nav {
     margin: auto;
     float: none;
     clear: both;
-    width: 395px;
+    width: 220px;
+    margin-bottom: 1em;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+#nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.post-container {
+    margin: 2em 0;
+}
+
+.post-container p {
+    margin-top: 10px;
+}
+
+.post-meta {
+    font-size: 1.5em;
 }
 
 .pagination {

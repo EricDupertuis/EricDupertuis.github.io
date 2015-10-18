@@ -12,7 +12,7 @@ group: navigation
 {% for item in (0..site.tags.size) %}{% unless forloop.last %}
 {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
     <a href="#{{ this_word | replace:' ','-' }}-ref" data-toggle="modal" data-target="#tagsModal-{{ counter }}">
-        {{ this_word }}<span class="badge pull-right">{{ site.tags[this_word].size }}</span>
+        {{ this_word }}<span class="badge">{{ site.tags[this_word].size }}</span>
     </a>
     <div class="modal fade" id="tagsModal-{{ counter }}" tabindex="-1" role="dialog">
       <div class="modal-dialog">
