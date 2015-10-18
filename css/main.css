@@ -67,6 +67,14 @@ header a:hover {
     font-size: 1.5em;
 }
 
+.panel-group {
+    margin-top: 2em;
+}
+
+.panel-title a {
+    margin-right: 15px;
+}
+
 /* highlight */
 .highlight pre {background-color: #272822}
 .highlight .hll { background-color: #49483e }
