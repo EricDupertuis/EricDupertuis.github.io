@@ -66,13 +66,28 @@ header a:hover {
 .pagination {
     font-size: 1.5em;
 }
+.panel-default>.panel-heading {
+    background-color: #ffffff;
+}
+
+.panel-default {
+    border: none;
+}
 
 .panel-group {
     margin-top: 2em;
 }
 
+.panel-body {
+    list-style-type: none;
+}
+
 .panel-title a {
     margin-right: 15px;
+}
+
+.panel-body a {
+    font-size: 1.5em;
 }
 
 /* highlight */
