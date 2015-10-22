@@ -109,15 +109,12 @@ header a:hover {
 .navbar-inverse .menu-link, .navbar-brand {
     padding-top: 30px;
     padding-bottom: 30px;
-
-}
-
-.navbar-inverse .menu-link {
     font-size: 1.5em;
 }
 
-.navbar-brand {
-
+.navbar-inverse .navbar-brand {
+    font-weight: bold;
+    color: #fff;
 }
 
 /* highlight */
