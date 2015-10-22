@@ -9,7 +9,7 @@ tags:
 # What do I need
 - redundant on-site backups for all files (personal files, movies, music and stuff...)
 - off-site backups for critical files, personal data and work related informations
-- data encryption for both off-site and on-site backups (only for)
+- data encryption for both off-site and on-site backups (only for personal data and photos)
 - Low power solution (no need for a Dell PowerEdge rack here)
 - 4TB of available space or more
 
