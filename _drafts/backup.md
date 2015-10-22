@@ -1,19 +1,26 @@
 ---
 layout: post
 title: Working on a new backup strategy
+comments: true
 tags:
 - System administration
 - linux
 - backup
 ---
 # What do I need
+
 - redundant on-site backups for all files (personal files, movies, music and stuff...)
+
 - off-site backups for critical files, personal data and work related informations
+
 - data encryption for both off-site and on-site backups (only for personal data and photos)
+
 - Low power solution (no need for a Dell PowerEdge rack here)
+
 - 4TB of available space or more
 
 ### About my home directory
+
 My home directory will get it's own backup on a small 500GB external hard drive (ADATA DashDrive 710) with a simple Rsync. I'm doing this because it allows me to carry this backup with me when I travel and I can backup from anywhere with this.
 
 # Available options
@@ -31,3 +38,5 @@ My home directory will get it's own backup on a small 500GB external hard drive 
 ### Off-site backups
 
 - _Cloud-based solutions_ : Some people don't trust Cloud-based services and I must say I don't trust them either. That's why all the data stored on the cloud MUST be encrypted beforehand. When they say that "they" encrypt data on their side it also means they can decrypt it so... thanks but no thanks.
+
+- _Off-site hard drive_ : Take on of your hard drive with you to work on monday and bring it back friday night to sync the data of the week.
