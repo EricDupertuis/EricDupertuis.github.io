@@ -40,3 +40,12 @@ My home directory will get it's own backup on a small 500GB external hard drive 
 - _Cloud-based solutions_ : Some people don't trust Cloud-based services and I must say I don't trust them either. That's why all the data stored on the cloud MUST be encrypted beforehand. When they say that "they" encrypt data on their side it also means they can decrypt it so... thanks but no thanks.
 
 - _Off-site hard drive_ : Take on of your hard drive with you to work on monday and bring it back friday night to sync the data of the week.
+
+{% highlight php %}
+    <?php
+    $coucou = true;
+    $tata = 'blabla';
+    function getThis($name) {
+        var_dump($name);
+    }
+{% endhighlight %}
