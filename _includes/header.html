@@ -1,10 +1,4 @@
-
-<header>
-    <div class="container">
-        <a href="/"><h1>{{ site.title }}</h1></a>
-    </div>
-</header>
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
     <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -12,15 +6,16 @@
                 <span class="sr-only">Toggle navigation</span>
                 <span>Menu</span>
             </button>
+            <a class="navbar-brand" href="#">Eric Dupertuis</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
                 {% for page in site.pages %}
-                    {% if page.title %}
-                        <li><a class="menu-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-                    {% endif %}
+                {% if page.title %}
+                <li><a class="menu-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                {% endif %}
                 {% endfor %}
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -32,5 +27,8 @@
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
-<div class="container">
-
+<header>
+    <div class="container">
+        <a href="/"><h1>{{ site.title }}</h1></a>
+    </div>
+</header>

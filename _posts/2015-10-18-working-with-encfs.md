@@ -2,6 +2,7 @@
 layout: post
 title:  "Encryption of private data with EncFS"
 date:   2015-11-18 22:00:00
+comments: true
 categories: jekyll update
 tags:
 - encryption
