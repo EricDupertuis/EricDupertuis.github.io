@@ -2,6 +2,7 @@
 layout: post
 title: Working on a new backup strategy
 comments: true
+author: Eric Dupertuis
 tags:
 - System administration
 - linux
