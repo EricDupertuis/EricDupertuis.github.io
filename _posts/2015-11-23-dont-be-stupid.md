@@ -8,7 +8,7 @@ tags:
 - smartphone
 ---
 
-Ok so this morning I took my usual train at 08:07 and as always, it was really, really crowded.
+Ok so yesterday I took my usual train at 08:07 and as always, it was really, really crowded.
 
 I was standing in the middle of the train and in front of me there was this guy in a suit. Let's call him Jeff.
 
@@ -18,4 +18,4 @@ The problem was, he wasn't hiding his screen at all, he was holding his smartpho
 
 Of course I won't do anything evil with it but please, when you use your smartphone and you have some sensitive informations on it, take care. Don't show your password to everybody else, you never know who's looking at you.
 
-(Oh and his smartphone wasn't locked with a password, just a simple "swipe to unlock") 
+(Oh and his smartphone wasn't locked with a password, just a simple "swipe to unlock")
