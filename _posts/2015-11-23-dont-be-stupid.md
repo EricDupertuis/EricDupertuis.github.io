@@ -20,6 +20,6 @@ He was holding his smartphone right in front of him so, I could see everything h
 
 Of course I won't do anything evil with it because I'm not an a-hole, but please, for anyone who reads this, when you use your smartphone and you have some sensitive informations on it, [don't fuck it up](https://www.youtube.com/watch?v=J1q4Ir2J8P8). Don't show your password to everybody else, you never know who's looking at you. Someone with bad intentions might be looking over your shoulder.
 
-(Oh and his smartphone wasn't locked with a password, just a simple "swipe to unlock").
+(Oh and his smartphone wasn't locked with a password or a pattern, just a simple "swipe to unlock", which is stupid).
 
-Please don't be stupid and take care for these sort of things.
+Please don't be stupid and take care about these sort of things.
