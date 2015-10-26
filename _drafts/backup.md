@@ -20,17 +20,25 @@ tags:
 
 - 4TB of available space or more (I currently have 1.5 - 1.8TB of data without counting CDs)
 
+# System backup
+
+I don't really care about my system, I don't really need to backup my OS. I always carry around USB sticks in my backpack with different OS on them. So if my SSD dies, I can still work.
+
 # Available options
 
 ### On-site backups
 
 - _Synology_ : Good turnkey solution. Easy to set-up, pretty good UI, management is a breeze. A bit expensive and almost no evolution over time. Once you reach it's limit you need a new NAS.
 
-- _Homemade NAS_ (using FreeNAS) : Perfect custom solution and allows great flexibility and evolution. You can adapt everything to your needs. But it requires some time to get all the needed hardware and to install and configure.
+- _Homemade NAS_ (using FreeNAS) : Perfect custom solution and allows great flexibility and evolution. You can adapt everything to your needs. But it requires some time to get all the needed hardware and to install and configure all of this.
 
-- _External hard drive with RAID function_ : Offers external backup redundancy for a pretty good price (4TB version can be found for ~ 350CHF with drives), can be shut down when not in use which is perfect for power consumption, offers USB3 interfaces to add a third redundant drive, swapable drives etc... Good solution for simple backup needs but lacks network share, hardware is often proprietary and warrant rarely exceeds 2 years.
+- _External hard drive with RAID function_ : Offers external backup redundancy for a pretty good price (4TB version can be found for ~ 350CHF with drives), can be shut down when not in use which is perfect for power consumption, some offers USB3 interfaces to add a third redundant drive, and most of them have swapable drives. Good solution for simple backup needs but lacks network share, hardware is often proprietary and warrant rarely exceeds 2 years.
 
-- _The Raspberry Pi_ : create a NAS based on a raspberry pi. Saw that multiple times. Good exercise if you want to learn but performances aren't good enough (far from enough)
+- _The Raspberry Pi_ : create a NAS based on a raspberry pi. Saw that multiple times. Good exercise if you want to learn how to set-up shared folders etc. but performances aren't good enough (far from enough)
+
+- _Raid Enclosure_ : Basically turns two drives with a RAID 1 setup into one external drive. Makes automated backups really easy with hardware raid.
+
+- _Manual backups_ : Two external drives and set a script that saves data on both of them. Cheap, easy to carry your backups around (who said off-site backups) but a pain in the a** to manage (in my opinion).
 
 ### Off-site backups
 
@@ -40,10 +48,12 @@ tags:
 
 - _Dedicated server_ : Too expensive for me right now so this is out of the picture
 
+- _VPS_ : Most VPS providers don't offer hugh storage so I'll keep this option to backup very important files.
+
 # Backup levels
 
 - Level 1 : Very important files such as private documents, bills, bank related stuff, password database, ssh and other keys, configuration files and other things I can't live without. (so pretty much all of my /home folder and more). Also, programming projects (Github hosted but still).
 
-- Level 2 : Personal photos and videos, video projects, school related files and projects.
+- Level 2 : Personal photos and videos, video projects, school related files and projects and my emails
 
 - Level 3: Music, movies, series, e-books and other media stuff.
