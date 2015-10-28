@@ -62,8 +62,16 @@ I don't really care about my system, I don't really need to backup my OS. I alwa
 
 That is one of the biggest decision I had to make : Network share or not? And I decided to go without for some simple reasons :
 
-1) If I get a NAS, it will be stored in my room (where I sleep) and I usually shut down all my devices when I go to sleep to avoid flashing leds and noise. I don't see the point of having a NAS if it is up only two or three hours a day. (And I've got nowhere else to put it)
+1) If I get a NAS, it will be stored in my room (where I sleep) and I usually shut down all my devices when I go to sleep to avoid flashing LEDs and noise. I don't see the point of having a NAS if it is up only two or three hours a day. (And I've got nowhere else to put it)
 
 2) If it is stored in my room (see point 1), I don't need the network share because I can physically access it, as it will be right next to my desk, inches away from my computer
 
-3) The point of having a NAS is 24/7 accessibility. I thought about this for a while and i realized that I don't need my files to be accessible 24/7.
+3) The point of having a NAS is 24/7 accessibility. I thought about this for a while and i realized that I don't need my files to be accessible 24/7. I just need drives to save my files.
+
+4) I said I wanted to save power so the less uptime, the better.
+
+# Tools, scripts or manual backups ?
+
+I decided to go with home made scripts (mainly Bash) because it gives me a great flexibility. I can set things up however I want, I can launch them manually or using a CRON etc...
+
+I also took a quick look at some backup softwares but I wasn't thrilled by any of them.
