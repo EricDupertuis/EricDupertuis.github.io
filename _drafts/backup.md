@@ -52,8 +52,18 @@ I don't really care about my system, I don't really need to backup my OS. I alwa
 
 # Backup levels
 
-- Level 1 : Very important files such as private documents, bills, bank related stuff, password database, ssh and other keys, configuration files and other things I can't live without. (so pretty much all of my /home folder and more). Also, programming projects (Github hosted but still).
+- Level 1 : Very important files such as private documents, bills, bank related stuff, password database, ssh and other keys, configuration files and other things I can't live without. (so pretty much all of my /home folder and more). Also, programming projects (most are hosted on Github but, still...).
 
 - Level 2 : Personal photos and videos, video projects, school related files and projects and my emails
 
 - Level 3: Music, movies, series, e-books and other media stuff.
+
+# Why I won't go with a NAS
+
+That is one of the biggest decision I had to make : Network share or not? And I decided to go without for some simple reasons :
+
+1) If I get a NAS, it will be stored in my room (where I sleep) and I usually shut down all my devices when I go to sleep to avoid flashing leds and noise. I don't see the point of having a NAS if it is up only two or three hours a day. (And I've got nowhere else to put it)
+
+2) If it is stored in my room (see point 1), I don't need the network share because I can physically access it, as it will be right next to my desk, inches away from my computer
+
+3) The point of having a NAS is 24/7 accessibility. I thought about this for a while and i realized that I don't need my files to be accessible 24/7.
