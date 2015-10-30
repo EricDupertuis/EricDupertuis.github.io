@@ -72,6 +72,8 @@ That is one of the biggest decision I had to make : Network share or not? And I 
 
 # Tools, scripts or manual backups ?
 
+I took a quick look at some backup softwares but I wasn't thrilled by any of them for a few reasons : Most of them are proprietary, most of them only work on Windows and/or Mac OS and most of them don't offer a lot of options.
+
 I decided to go with home made scripts (mainly Bash) because it gives me a great flexibility. I can set things up however I want, I can launch them manually or using a CRON etc...
 
-I also took a quick look at some backup softwares but I wasn't thrilled by any of them.
+I'm not going to talk about manual backups. This is 2015, not 1999.
