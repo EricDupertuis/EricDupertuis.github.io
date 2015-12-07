@@ -63,8 +63,13 @@ header a:hover {
   background-color: #272822;
 }
 
+.post-title {
+  margin-bottom: 1em;
+}
+
 .post-meta {
     font-size: 1.5em;
+    font-weight: bold;
 }
 
 .post-link:hover {
@@ -145,6 +150,21 @@ header a:hover {
 .navbar-inverse .navbar-brand {
     font-weight: bold;
     color: #fff;
+}
+
+.navbar-toggle {
+  border: none;
+  font-size: 2em;
+  line-height: 0.8em;
+}
+
+.navbar-toggle span {
+  color: #fff;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    text-transform: uppercase;
 }
 
 .twitter-share-button {
