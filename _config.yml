@@ -8,6 +8,7 @@ url: "http://edupertuis.net" # the base hostname & protocol for your site
 highlighter: pygments
 markdown: kramdown
 
+gems: [jekyll-paginate]
 paginate: 5
 
 twitter_username : dupertuiseric
