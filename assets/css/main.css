@@ -71,6 +71,15 @@ header a:hover {
     text-decoration: none;
 }
 
+.share-page {
+  font-size: 1.6em;
+  margin-top: 1em;
+}
+
+.fa {
+  margin-right: 15px;
+}
+
 .pagination {
     font-size: 1.5em;
 }
@@ -143,7 +152,7 @@ header a:hover {
 }
 
 #disqus_thread {
-    margin-top: 4em;
+    margin-top: 2em;
 }
 
 #main-container {
