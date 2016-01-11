@@ -1,24 +1,29 @@
 ---
 layout: default
 ---
-
-{% for post in paginator.posts %}
-<div class="post-container">
-    <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+<header class="masthead">
+  <h1 class="masthead-title">
+    <a href="{{ site.baseurl }}/">{{ site.name }}<span>&#39;s blog</span></a>
+  </h1>
+  <nav class="masthead-nav">
+    {% for nav in site.nav %}
+    <a href="{{ nav.href }}">{{ nav.name }}</a>
+    {% endfor %}
+  </nav>
+</header>
+<div class="content list">
+{% if site.posts.size == 0 %}
+  <h2>No post found</h2>
+{% else %}
+{% for post in site.posts %}
+  <div class="list-item">
+    <h2 class="list-post-title">
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h2>
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-    <p>{{ post.content | strip_html | truncatewords:75}}</p>
-</div>
+    <div class="list-post-date">
+      <time>{{ post.date | date_to_string }}</time>
+    </div>
+  </div>
 {% endfor %}
-
-<div class="pagination">
-    {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-    {% endif %}
-    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-    {% endif %}
+{% endif %}
 </div>

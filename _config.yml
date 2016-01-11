@@ -1,14 +1,38 @@
-# Site settings
-title: Eric Dupertuis
-email: dupertuis.eric@gmail.com
-description:
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://edupertuis.net" # the base hostname & protocol for your site
+# # # # # # # #
+#   K i k o   #
+# # # # # # # #
 
-highlighter: pygments
-markdown: kramdown
+# Basic
+name:               "Eric"
 
-gems: [jekyll-paginate, pygments.rb]
-paginate: 5
+# URL
+baseurl:            ""
+#baseurl:            "" #For Root Domain
+permalink:          /:year/:month/:day/:title.html
 
-twitter_username : dupertuiseric
+# Markdown
+markdown:           rdiscount
+
+# Navigation
+nav:
+  - name:           "About"
+    href:           "/about"
+
+# Sass
+sass:
+  style:            :compressed
+
+# Scopes
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
