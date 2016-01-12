@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Playing with the Zopflipng compression library"
-date:   2016-01-11 13:30:00
+date:   2016-01-12 13:30:00
 comments: true
 tags:
 - compression
