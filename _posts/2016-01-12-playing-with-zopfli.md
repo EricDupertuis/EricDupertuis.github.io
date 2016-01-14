@@ -97,7 +97,7 @@ So we won almost 10%, that's neat.
 ![Compress all the images](https://i.imgflip.com/x82yl.jpg)
 
 So we can see that Zopfli is a pretty great tool to compress PNG images. It takes quite a lot of CPU time but it really is just : compress once, deliver indefinitely. If you have to deliver a lot of images and icons to hundreds, thousands or millions of users, just think about the bandwith that you're saving.
-just image you're serving those 50 png icons every month to 300'000 *unique* users (so I don't bother about cache and stuff).
+Just imagine you're serving those 50 png icons every month to 300'000 *unique* users (so I don't bother about cache and stuff).
 
 | Icons original | Icons compressed |  users  | Total original | Total compressed |
 |:--------------:|:----------------:|:-------:|:--------------:|:----------------:|
