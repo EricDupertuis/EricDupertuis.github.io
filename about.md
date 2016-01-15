@@ -12,6 +12,8 @@ I'm a swiss student in web development and design currently working for a medium
 
 My main interests are programming (PHP, Python and Javascript among others), design, Linux distributions, build automation etc... I breath open source.
 
+I'm also slowly learning more about cryptography and system security.
+
 ## On my spare time
 
 When I'm not working or deep into my text editor I like playing trying new technologies, working on personal projects, going out with friends riding and fixing motorcycles.
