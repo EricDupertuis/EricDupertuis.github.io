@@ -19,6 +19,7 @@
   ],
   "dependencies": {
     "font-awesome": "fontawesome#~4.5.0",
-    "animate.css": "~3.5.1"
+    "animate.css": "~3.5.1",
+    "instafeed.js": "~1.4.1"
   }
 }
