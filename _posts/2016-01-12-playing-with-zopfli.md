@@ -25,7 +25,7 @@ first, you'll need to clone the [repository](https://github.com/google/zopfli) a
     git clone https://github.com/google/zopfli.git
     cd zopfli
 
-And the you simply have to build it (you may need to install build-essential if you're using ubuntu)
+And then you simply have to build it (you may need to install build-essential if you're using ubuntu)
 
     make zopflipng
 
@@ -41,7 +41,7 @@ Personally I like having the tool available system-wide so :
 
 For my little test, I download a pack of icon from [Flaticon.com](http://www.flaticon.com/) So I have now 50 small png images to compress. A little `du -h` gives us a size of 340K
 
-Now I'll juts use a simple bash script to compress all of them and output them in another folder
+Now I'll just use a simple bash script to compress all of them and output them in another folder
 
 {% highlight Bash %}
 #!/bin/bash
@@ -74,7 +74,7 @@ We can see there's not much difference (like, none..., it's lossless). The only 
 
 Of course the compression depends on the image's complexity but we get images that are up to 13% smaller.
 
-The downside is that it took quite a lot of time and power. Compressing the images took my computer 293 seconds using one core at 100% (zopfli doesn't use multiple cores). Now keep in mind that i'm running this on a desktop computer and I used a single instance of Zopfli, I could have used multiple instances and compress multiple images at once.
+The downside is that it took quite a lot of time and power. Compressing the images took my computer 293 seconds using one core at 100% (zopfli doesn't use multiple cores). Now keep in mind that i'm running this on a laptop(2.4 Ghz Intel i3-3110M) and I used a single instance of Zopfli, I could have used multiple instances and compress multiple images in parralel (but i didn't want to write such a script because I'm lazy).
 
 ## Compressing bigger images
 

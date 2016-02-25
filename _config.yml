@@ -1,28 +1,12 @@
-# # # # # # # #
-#   K i k o   #
-# # # # # # # #
-
-# Basic
 name:               "Eric"
-
-# URL
 baseurl:            ""
-#baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title.html
-
-# Markdown
 markdown:           kramdown
-
-# Navigation
 nav:
   - name:           "About"
     href:           "/about"
-
-# Sass
 sass:
   style:            :compressed
-
-# Scopes
 defaults:
   -
     scope:
