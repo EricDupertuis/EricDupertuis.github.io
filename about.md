@@ -16,7 +16,7 @@ I'm also slowly learning more about cryptography and system security.
 
 ## On my spare time
 
-When I'm not working or deep into my text editor I like playing trying new technologies, working on personal projects, going out with friends riding and fixing motorcycles.
+When I'm not working or deep into my text editor I like trying new technologies, working on personal projects, going out with friends riding and fixing motorcycles.
 
 ## Contacting Me
 
