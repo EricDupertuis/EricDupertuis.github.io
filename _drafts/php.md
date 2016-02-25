@@ -27,6 +27,8 @@ The fact is, PHP didn't really start as a full-blown programming language, It wa
 - Functions arguments are inconsistent
 - Case-insensitive functions but case-sensitive variables
 
+<rant>They say PHP is bad but Javascript is filled with quirky stuff as well and it still is one of the most trending language at the moment</rant>
+
 ## PHP is popular
 
 Yes, this is something you can't deny, PHP is very popular on the web thanks to a lot of hosting companies. What makes the language so popular in my opinion is the combo : Shared hosting providers / Wordpress. Most hosting providers support the LAMP stack by default and even offer those one-click install of Wordpress and other CMS. This contribute to this high "Market share".
@@ -41,3 +43,11 @@ This is one of the things that gives PHP a bad reputation : The old, crappy, poo
 Sadly, the internet is filled with such legacy crap and I can't blame anyone who worked on such project to develop nothing but hatred for PHP.
 
 ## If the code is bad, there's a reason
+
+Ok so this applies to all programming languages, If your code is bad, don't blame the language. If your C program overload the memory, *you* did something bad, not the language, not the C compiler. And that's what I want to say : There's too much bad PHP code out there (did I say wordpress ?) and too many projects filled with poorly designed codebase. Also, if you search for a PHP tutorial on google, you'll find hundreds of tutorials that doesn't teach you what the language can do and many of these will even give you perfect examples of what you shouldn't do. If I must recommand a good tutorial (more of a book really), it's @TODO *PHP THE GOOD PARTS*
+
+Modern PHP allows for good OOP code with modern concepts such as dependency injection, interfaces and such.
+
+## Things get better
+
+The introduction of PHP 7 is a great improvement in terms of speed, consistency and security. This release got rid of all and unsafe functions, introduced more OOP oriented functionalities.
