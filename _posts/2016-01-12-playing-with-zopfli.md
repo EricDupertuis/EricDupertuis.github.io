@@ -60,7 +60,7 @@ Hell yeah, we just saved 28k right there. It might not seem like a big deal but 
 
 And if we compare the two images :
 
-![Zopfli Comparison](/images/zopfli.png)
+![Zopfli Comparison](/assets/dist/images/zopfli.png)
 
 We can see there's not much difference (like, none..., it's lossless). The only real difference is the file size. Let's just take a look at four icons picked at random
 
