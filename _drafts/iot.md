@@ -37,6 +37,9 @@ What productive task can you do in 40 seconds at 6.30 in the morning when you wa
 
 Google Brillo, Apple HomeKit, Oracle IoT, etc... Everyone is trying to push it's own standard and there's no interoperability between them. Most IoT devices come with their own app (which is often pretty bad). It means that if you own multiple devices from different manufacturers, you have multiple apps on your smartphone, you better grab that external battery, you'll need it.
 
+<blockquote class="twitter-tweet" data-lang="fr"><p lang="en" dir="ltr">can&#39;t wait for someone to steal my bike because the padlock wasn&#39;t encrypted right <a href="https://t.co/W7Njgkidxr">https://t.co/W7Njgkidxr</a></p>&mdash; Internet of Shit (@internetofshit) <a href="https://twitter.com/internetofshit/status/659373432992321536">28 octobre 2015</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Major trust issues
 
 Let's talk about security shall we ? I won't point out that fact that any decent programmer / hacker can doodle with some IoT library, get some sensors and wires together and come up with a *new awesome product that will make your life easier™* and then promote it and sell it (Kickstarter, here I come). I could point out the fact that some people [hacked a jeep](https://www.wired.com/2015/07/hackers-remotely-kill-jeep-highway/) or a [TP750 rifle](https://www.wired.com/2015/07/hackers-can-disable-sniper-rifleor-change-target/), I mean...
@@ -47,12 +50,26 @@ I would trust an **open source** system based on an **open standard** that is no
 
 ## It's not an automation problem
 
-Just to be clear, I'm not against a bit of home automation, my problem is all the fuss about remote access. I don't want my home automation system to be remotely controlled, I would want my whole system to be as secure as possible and off the grid. I would probably want it on a sub-network of his own with his own wi-fi... (Am I being paranoid ?).
+Just to be clear, I'm not against a bit of home automation, my problem is all the fuss about remote access and connecting **everything**. I don't want my home automation system to be remotely controlled, I would want my whole system to be as secure as possible and off the grid. I would probably want it on a sub-network of his own with his own wi-fi... (Am I being paranoid ?).
+I don't want my desk fan to be controlled by my smartphone (and drain its battery), I'm not that lazy, I can press a button. I don't want to track everything that my body is doing using *smart* wearables. Stop making things smart and try to solve problems that simply don't exist
 
-I want all my devices to be secure, why would it be different for
+I want all my devices to be secure and useful, why would it be different for my home automation stuff ?
+
+![Just Because you can, doesn't mean you should](/images/iot/3.jpg)
 
 ## I'm not against *everything* IoT
 
 There are some projects that do draw my attention and that I do find interesting and/or useful, such as [Walli, The Smart Wallet](https://www.kickstarter.com/projects/1130199505/walli-the-smart-wallet?ref=category). The idea of a wallet connected to a phone is good for me because I'm a freaking maniac about my wallet's security (I have on with a clip, to be sure it doesn't fall out of my pocket). On the other end, a [smart lunchbox](https://www.kickstarter.com/projects/lunchx/ember-the-worlds-smartest-lunchbox?ref=category) is stupid.
 
     </rant>
+
+## Some really stupid IoT stuff just for fun
+
+- [A Smart Meat Thermometer](https://www.indiegogo.com/projects/meater-the-only-wire-free-smart-meat-thermometer#/) For those who can't cook for shit.
+- [Teplo, A Smart Bottle for Tea Lovers](https://www.indiegogo.com/projects/teplo-the-1st-smart-bottle-for-tea-lovers#/) Because putting a tea bag in a cup is too complicated, you need an app for that.
+- [Kuvee, a connected wine bottle case or something](http://www.kuvee.com/) It's like an Apple device for wine, now with proprietary software, hardware AND wine bottles.
+- [Friday smart lock](https://www.indiegogo.com/projects/friday-smart-lock#/) Lost phone or dead battery, you sleep on the porch.
+- [Bluesmart, connected carry on](https://www.indiegogo.com/projects/bluesmart-world-s-first-smart-connected-carry-on#/) For those who want the full cavity search at the airport.
+- [A smart and eco-friendly outdoor mattress ](https://www.indiegogo.com/projects/beachill-the-smart-eco-friendly-outdoor-mattress--2#/) You nigga just went full retard, never go full retard.
+
+Boy do I love the future...
