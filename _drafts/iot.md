@@ -9,6 +9,8 @@ tags:
 - rant
 ---
 
+    <rant>
+
 Cisco estimates the IoT will consist of [50 billion devices](http://www.cisco.com/c/en/us/solutions/internet-of-things/overview.html) connected to the Internet by 2020
 
 I mean, that's a truckload of devices, and a truckload of money, but the really important point here for me is that : It's a lot of money for such a stupid market.
@@ -23,7 +25,9 @@ One of the selling point of the *iKettle™* is :
 
     Hanging around the kitchen waiting for the kettle to boil is a thing of the past.
 
-Seriously ? My kettle takes 40 seconds to boil water, you can't wait 40 seconds ? Is it really faster to take your phone, launch the app and launch the *boil water* command ?
+Seriously ? My kettle takes 40 seconds to boil water, you can't wait 40 seconds ? Is it really faster to take your phone, launch the app and launch the *boil water* command ? Do you need to automate that ? Are you that lazy ?
+
+Oh, and you still have to put water in the damn thing...
 
     It makes you wonder what you will do with all your spare time…
 
@@ -35,4 +39,20 @@ Google Brillo, Apple HomeKit, Oracle IoT, etc... Everyone is trying to push it's
 
 ## Major trust issues
 
-Let's talk about security shall we ? I won't point out that fact that any decent programmer / hacker can doodle with some IoT library, get some sensors and wires together and come up with a *new awesome product that will make your life easier™* and then promote it and sell it. I'll point out the fact that it's much easier to do that
+Let's talk about security shall we ? I won't point out that fact that any decent programmer / hacker can doodle with some IoT library, get some sensors and wires together and come up with a *new awesome product that will make your life easier™* and then promote it and sell it (Kickstarter, here I come). I could point out the fact that some people [hacked a jeep](https://www.wired.com/2015/07/hackers-remotely-kill-jeep-highway/) or a [TP750 rifle](https://www.wired.com/2015/07/hackers-can-disable-sniper-rifleor-change-target/), I mean...
+
+![Just Because you can, doesn't mean you should](/images/iot/2.jpg)
+
+I would trust an **open source** system based on an **open standard** that is not connected to the internet... maybe.
+
+## It's not an automation problem
+
+Just to be clear, I'm not against a bit of home automation, my problem is all the fuss about remote access. I don't want my home automation system to be remotely controlled, I would want my whole system to be as secure as possible and off the grid. I would probably want it on a sub-network of his own with his own wi-fi... (Am I being paranoid ?).
+
+I want all my devices to be secure, why would it be different for
+
+## I'm not against *everything* IoT
+
+There are some projects that do draw my attention and that I do find interesting and/or useful, such as [Walli, The Smart Wallet](https://www.kickstarter.com/projects/1130199505/walli-the-smart-wallet?ref=category). The idea of a wallet connected to a phone is good for me because I'm a freaking maniac about my wallet's security (I have on with a clip, to be sure it doesn't fall out of my pocket). On the other end, a [smart lunchbox](https://www.kickstarter.com/projects/lunchx/ember-the-worlds-smartest-lunchbox?ref=category) is stupid.
+
+    </rant>
