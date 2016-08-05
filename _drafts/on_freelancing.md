@@ -9,7 +9,7 @@ tags:
 - work
 ---
 
-I've been freelancing on the side of my formation for two years now, doing mainly web design and web development. I've decided to stop (at least the big projects) but I've learned a lot in two years.
+I've been freelancing on the side of my formation for two years now, doing mainly web design and web development. I've decided to stop (at least the big projects) but I've learned a lot in two years. I'm pretty sure many people have encountered the problems that I faced way before me but I'm going the write about it anyway.
 
 ## Be a full-time freelancer, or don't be
 
@@ -36,3 +36,7 @@ I've learned this the hard way... twice.
 I got into two projects that were already in place and well advanced. Both situations were pretty similar : I was hired to fix broken things and finish the latest features. But when you get in a two years old PHP project that five developers have worked om (everyone off them in a different way), you don't want to be there to patch things up.
 
 If I would start again, I would do simpler projects, but do them from start to finish.
+
+## Don't get into oversized projects
+
+Don't get into a project that would require 5 developers if you're alone. This might seem obvious, but you should know your limits and therefor, refuse to work on projects that are bigger than you.
