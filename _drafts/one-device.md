@@ -17,18 +17,25 @@ But all of this as led to what I would consider a problem : We have too many dev
 
 - a smartphone
 - a laptop
-- a desktop computer
+- a desktop computer at home
+- a desktop computer at work
 - a 7' tablet
-- a second laptop
+- a second laptop for multimedia purposes
 
-They run on different operating systems, don't run on the same architecture (x86/arm), don't share the same configuration and have data spread among all of them.
+They run on different operating systems, don't run on the same architecture (x86/arm), don't share the same configuration and have data spread among all of them (without counting external storage devices).
 
-Something that bothers me is all the potential of all your devices can't really be combined. How awesome would it be to be able to use the power of your GPU (located in your desktop) on your smartphone or laptop. How great would it be to simply share one operating system for all of those devices. Imagine if your smartphone became the center of a totally modular computing experience.
+Something that bothers me is all the potential of all your devices can't really be combined. How awesome would it be to be able to use the power of your GPU (located in your desktop) on your smartphone or laptop. ? How great would it be to simply share one operating system for all of those devices ? Imagine if your smartphone became the center of a totally modular computing experience.
 
-We already had a glimpse of that with (Ubuntu phone project), with (this HP phone) running windows 10 or more simply with the Asus PhonePad (a phone to tablet conversion).
+We already had a glimpse of that with with Ubuntu phones, [The HP Elite x3](http://www.theverge.com/2016/2/21/11068496/hp-elite-x3-announced-specs-windows-10-mwc-2016) running windows 10 or more simply with the [Asus PadPhone](http://www.anandtech.com/show/6797/hands-on-with-the-asus-fonepad-and-asus-padfone-infinity), a smartphone that could dock to a tablet which even add a keyboard as an available option.
 
 Here is what I would like to have in the future : a single "central" device. Everything else is just an extension.
 
-If are interested in the latest innovations, you've probably have heard of the (Razer Core), an external GPU that you can plus to any computer with a USB type-C plug. This is what I would call a first step towards a central "computing unit", a central device that can use the power of other computers and components, a central computing experience.
+If are interested in the latest innovations, you've probably have heard of the [Razer Core](http://www.ultrabookreview.com/10761-razer-core-review/), an external GPU that you can plug to any computer with a USB type-C plug (supporting Thunderbolt 3). This is what I would call a first step towards a central "computing unit", a central device that can use the power of other computers and components, a central computing experience. This is applied to a GPU but what about pluging a more powerful CPU, extending the amount of RAM available ?
 
-My dream, what I would like to see, what I would like to use, is a simple device that is the core of your computing needs. If you need more power for graphics or calculations, simply use a dock connected to external parts, external GPUs or CPUs. I would like a central device that can evolve using external parts, docks or docking stations.
+Of course this can't be applied to the devices we currently have as their design (both hardware and software) are not adapted to this. I think moving toward such a model would ask for a redesign of all the devices we use, a redesign for softwares and operating systems, and a redesign in the way that we use computers.
+
+My dream, what I would like to see, what I would like to use, is a simple device that is the core of your computing needs. If you need more power for graphics or calculations, simply use a dock connected to external parts, external GPUs or CPUs. I would like a central device that can evolve using external parts, docks or docking stations. Modern I/O technologies gives use bandwidth that we didn't even dream of 30 years ago. Thunderbolt 3 gives us a 40 Gbit/s bandwidth, on a tiny type-c connector. That's powerful enough to drive two external 4K displays at 60 Hz. This is what could make the "central device experience" possible. A single, standard connector, with a very high bandwidth that is universal. Being able to transfer data as well as power.
+
+Then just imagine your smartphone being the hearth of a fully modular computing unit.
+
+Well, maybe I'm just dreaming, but let me hope.
