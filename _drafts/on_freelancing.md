@@ -1,6 +1,7 @@
 ---
 layout: post
 title: On freelancing
+date: 2016-08-06 18:15
 comments: true
 author: Eric Dupertuis
 tags:
