@@ -18,4 +18,4 @@ I'm a hardware nerd who loves building computers, so I'm never happy with my [ri
 If you want to speak to me about anything software, hardware or beer related, go [here](/contact)
 
 <a href="https://www.freebsdfoundation.org/donate" target="_blank">
-<img src="https://www.freebsdfoundation.org/wp-content/uploads/2015/12/proud_donor.gif" alt="Proud Donor" title="FreeBSD Foundation Donor" ></a>
+<img src="/images/others/fbf_donate.gif" alt="Proud Donor" title="FreeBSD Foundation Donor" ></a>
