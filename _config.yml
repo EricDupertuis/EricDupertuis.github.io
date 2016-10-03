@@ -1,10 +1,14 @@
-name:               "Eric"
+name:               "Eric <span>Dupertuis</span>"
 baseurl:            ""
 permalink:          /:year/:month/:day/:title.html
 markdown:           kramdown
 nav:
   - name:           "About"
     href:           "/about"
+  - name:           "Contact"
+    href:           "/contact"
+  - name:           "Projects"
+    href:           "/projects"
 sass:
   style:            :compressed
 defaults:
