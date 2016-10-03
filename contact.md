@@ -17,3 +17,5 @@ I can also be found on :
 - [LinkedIn](https://ch.linkedin.com/in/eric-dupertuis-92470193)
 - [Keybase](https://keybase.io/thorgilson)
 - [Minds.com](https://minds.com/thorgilson)
+
+I also go by the nick *Thorgilson* on IRC ([afternet.org](http://www.afternet.org/) and [freenode.net](https://freenode.net/))
