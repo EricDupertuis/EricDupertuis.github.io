@@ -11,7 +11,7 @@ I'm also a freelance developer and general programmer at night, focusing mainly 
 
 I'm using PHP as my main programming language but I also swim in a big pool of Javascript and a small pond of Python. I'm also always eager to learn so I recently started studying C, trying to get closer to the machine.
 
-I'm a hardware nerd who loves building computers, so I'm never happy with my [rig's configuration](/images/others/rig.jpg), which I change pretty often.
+I'm a hardware nerd who loves building computers, so I'm never happy with my [rig's configuration](/computing), which I change pretty often.
 
 ## Contacting Me
 
