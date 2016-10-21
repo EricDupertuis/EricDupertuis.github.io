@@ -6,7 +6,7 @@ permalink: /contact/
 
 You can contact me using
 
-- [Twitter](https://twitter.com/dupertuiseric)
+- [Twitter](https://twitter.com/dupertuiseric) (send me opsec memes)
 - [My email](mailto://contact@edupertuis.net)
 
 My [PGP key](http://openpgp.org/) can be found [here](/files/key.asc)
