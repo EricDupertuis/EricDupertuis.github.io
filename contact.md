@@ -18,4 +18,6 @@ I can also be found on :
 - [Keybase](https://keybase.io/thorgilson)
 - [Minds.com](https://minds.com/thorgilson)
 
+You can add me on [steam](https://steamcommunity.com/profiles/76561198033822610/) if you're in that kind of things
+
 I also go by the nick *Thorgilson* on IRC ([afternet.org](http://www.afternet.org/) and [freenode.net](https://freenode.net/))
